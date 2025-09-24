@@ -21,7 +21,8 @@ For me, there are two primary kinds of FNL data to use for research:
 1. [NCEP FNL Operational Model Global Tropospheric Analyses, continuing from July 1999](https://gdex.ucar.edu/datasets/d083002/)
 2. [NCEP GDAS/FNL 0.25 Degree Global Tropospheric Analyses and Forecast Grids](https://gdex.ucar.edu/datasets/d083003/)
 
->[!NOTE] GDAS has short temporal coverage than FNL but higher resolution (0.25deg vs 1deg). Besides, GDAS have both analysis and forecasts grids while FNL only have analysis product. Both of them share same temporal resolution with 6 hours. 
+>[!NOTE]-
+>GDAS has short temporal coverage than FNL but higher resolution (0.25deg vs 1deg). Besides, GDAS have both analysis and forecasts grids while FNL only have analysis product. Both of them share same temporal resolution with 6 hours. 
 
 We can access the most complete and accurate data using gdex archiver. "Real-­time" users can get the FNL analysis grids directly from NCEP's NOMADS server, http://nomads.ncep.noaa.gov/.
 
