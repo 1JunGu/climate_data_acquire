@@ -26,6 +26,11 @@ For me, there are two primary kinds of FNL data to use for research:
 
 We can access the most complete and accurate data using gdex archiver. "Real-­time" users can get the FNL analysis grids directly from NCEP's NOMADS server, http://nomads.ncep.noaa.gov/.
 
+## Radiosondes 
+
+### [University of Wyoming Atmospheric Science Radiosonde Archive](https://weather.uwyo.edu/upperair/sounding.shtml)
+
+Apparently, user could click required station and date to download data through web UI. However, it is not convenient to download data for multiple stations and dates. Therefore, I check the source code of the website and find that the website use JSON to store the [station info](./uwyo/stations.json). Through requesting the JSON info and filtering the stations, we can download the data for multiple stations and dates. More details could be find [here](./uwyo/download_uwyo_sounding.py)
 
 
 ## references 
