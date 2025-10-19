@@ -16,6 +16,8 @@ Actually there are three kinds of download methods[^1]:
     cdsapi.Client().retrieve(dataset, request, filename)
     ```
     3. Except that automatically generated scripts, I also write a script which could drive models [here](./ERA5/download_ERA5_dirve_MPAS.py) or multiple initial conditions [here](./ERA5/download_ERA5_drive_multi_init.py)
+    4. For advanced use, please refer to this official [guide](https://confluence.ecmwf.int/display/CKB/Climate+Data+Store+%28CDS%29+User+Guide) 
+    5. By Oct 2025, [officail guide](https://cds.climate.copernicus.eu/how-to-api#advanced-users-section) suggest new API package [ecmwf-datastores-client](https://ecmwf.github.io/ecmwf-datastores-client/) with advanced features: metdata retrieval, synchronous and asynchronous jobs submissions, REST API.
 
 3. Sometimes, the ERA5 server side could be suffering from too many requests or the download speed is slow in client side. In this case, I would use an archiver named [NCAR|GDEX](https://gdex.ucar.edu/datasets/d633000/) to download ERA5 data.
 
