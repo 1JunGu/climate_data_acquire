@@ -32,6 +32,13 @@ We can access the most complete and accurate data using gdex archiver. "Real-­t
 
 Apparently, user could click required station and date to download data through web UI. However, it is not convenient to download data for multiple stations and dates. Therefore, I check the source code of the website and find that the website use JSON to store the [station info](./uwyo/stations.json). Through requesting the JSON info and filtering the stations, we can download the data for multiple stations and dates. More details could be find [here](./uwyo/download_uwyo_sounding.py)
 
+## Analysis 
+
+### 1. CMA Land Data Assmilation System (CLDAS)
+
+We can access this dataset via [official website](https://data.cma.cn/data/cdcdetail/dataCode/NAFP_CLDAS2.0_NRT.html) and registered account of China Meteorological Data Service Center/National Meteorological Information centre.
+
+This dataset have two variants: real time product and near real time product. Both of them share almost same information according to official dataset. (e.g., same temporal-spatial resolution of $0.0625^o$ and hourly, covering east Asia ($0-65^oN$, $60-160^oE$) ).
 
 ## references 
 [^1]: https://climatedataguide.ucar.edu/
