@@ -1,4 +1,5 @@
 #!/bin/bash
+#see the name conventions from https://data.cma.cn/article/showPDFFile.html?file=/pic/static/doc/F/CLDAS-V2.0/CLDAS-V2.0_ADP.pdf
 for i in $(ls |grep Z_NAFP);do
 	echo "Processing: " $i
 	#delete redundant characters after the last ?

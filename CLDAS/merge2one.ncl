@@ -2,7 +2,7 @@ begin
     dq = str_get_dq()
     date_cmd   = "date +" + dq + "%a %b %d %H:%M:%S %Z %Y" + dq
     wcStrt = systemfunc(date_cmd)
-;---Processing----------------
+    ;---Processing----------------
     finames = systemfunc("ls |grep P_CLDAS |grep -v 0728")
     fi = addfiles(finames,"r")
     ListSetType(fi, "join")
@@ -18,10 +18,10 @@ begin
     fiout = addfile("../../Figure1/CLDAS_Doksuri.nc","c")
     fiout->rain = rain
     fiout->rain_3day = rain_3day
-;-----------------------------
+    ;-----------------------------
     wallClockElapseTime(wcStrt, "Processing", 0)
     wcStrtGraphics = systemfunc(date_cmd)
-;---Graphics------------------
+    ;---Graphics------------------
     wallClockElapseTime(wcStrtGraphics, "Graphics", 0)
     wallClockElapseTime(wcStrt, "Processing and Graphics", 0)
 end
