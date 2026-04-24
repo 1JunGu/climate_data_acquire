@@ -40,5 +40,10 @@ We can access this dataset via [official website](https://data.cma.cn/data/cdcde
 
 This dataset have two variants: real time product and near real time product. Both of them share almost same information according to official dataset. (e.g., same temporal-spatial resolution of $0.0625^o$ and hourly, covering east Asia ($0-65^oN$, $60-160^oE$) ).
 
+>[!CAUTION]
+> Due to the data policy of China Meteorological Data Service Center, real-name user account is only allowed to download data size less than 500MB per day. And CLDAS only supports time ranges of two days per query.
+
+
+
 ## references 
 [^1]: https://climatedataguide.ucar.edu/
