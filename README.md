@@ -40,8 +40,7 @@ We can access this dataset via [official website](https://data.cma.cn/data/cdcde
 
 This dataset have two variants: real time product and near real time product. Both of them share almost same information according to official dataset. (e.g., same temporal-spatial resolution of $0.0625^o$ and hourly, covering east Asia ($0-65^oN$, $60-160^oE$) ).
 
->[!CAUTION]
-> Due to the data policy of China Meteorological Data Service Center, real-name user account is only allowed to download data size less than 500MB per day. And CLDAS only supports time ranges of two days per query.
+Find my experience of downloading CLDAS in [this](./CLDAS/README.md) document.
 
 ## Satellite Product
 
@@ -49,9 +48,11 @@ This dataset have two variants: real time product and near real time product. Bo
 
 For detailed information, refer to this website [IMERG | NASA](https://gpm.nasa.gov/data/imerg).
 
-For research purpose, we should use the final run level of IMERG product. The spatial resolution is 0.1 deg and temporal resolution ranges from half hourly, daily to monthly. The latest version is V07.
+For research purpose, we should use the final run level of IMERG product which are corrected by in-situ data but have a latency of 3 months. The near real time product is also available but not recommended for research use due to the lack of in-situ correction.
 
-We can access the detailed half hourly product [here](https://disc.gsfc.nasa.gov/datasets/GPM_3IMERGHH_07/summary?keywords=IMERG) and daily product [here](https://disc.gsfc.nasa.gov/datasets/GPM_3IMERGDF_07/summary).
+The spatial resolution is 0.1 deg and temporal resolution ranges from half hourly, daily to monthly. The latest version is V07.
+
+We can access the detailed half hourly product [here](https://disc.gsfc.nasa.gov/datasets/GPM_3IMERGHH_07/summary?keywords=%22IMERG%20final%22) and daily product [here](https://disc.gsfc.nasa.gov/datasets/GPM_3IMERGDF_07/summary?keywords=%22IMERG%20final%22), and monthly product [here](https://disc.gsfc.nasa.gov/datasets/GPM_3IMERGM_07/summary?keywords=%22IMERG%20final%22).
 
 Find my experience of downloading IMERG in [this](./IMERG/README.md) document.
 
