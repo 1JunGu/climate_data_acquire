@@ -43,7 +43,17 @@ This dataset have two variants: real time product and near real time product. Bo
 >[!CAUTION]
 > Due to the data policy of China Meteorological Data Service Center, real-name user account is only allowed to download data size less than 500MB per day. And CLDAS only supports time ranges of two days per query.
 
+## Satellite Product
 
+### 1. Integrated Multi-satellitE Retrievals for GPM (IMERG)
+
+For detailed information, refer to this website [IMERG | NASA](https://gpm.nasa.gov/data/imerg).
+
+For research purpose, we should use the final run level of IMERG product. The spatial resolution is 0.1 deg and temporal resolution ranges from half hourly, daily to monthly. The latest version is V07.
+
+We can access the detailed half hourly product [here](https://disc.gsfc.nasa.gov/datasets/GPM_3IMERGHH_07/summary?keywords=IMERG) and daily product [here](https://disc.gsfc.nasa.gov/datasets/GPM_3IMERGDF_07/summary).
+
+Find my experience of downloading IMERG in [this](./IMERG/README.md) document.
 
 ## references 
 [^1]: https://climatedataguide.ucar.edu/
