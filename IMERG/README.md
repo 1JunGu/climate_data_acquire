@@ -10,6 +10,8 @@ author: Jun Gu
 2. create and retrieve [Earthdata Token](https://urs.earthdata.nasa.gov/documentation/for_users/user_token) for authentication.
 3. For different download methods (e.g., wget, curl, python), the way to use Earthdata Token is different. Please refer to the reference for details.
 4. Through the web interface, user can search the data and generate a text file containing the download links. Then use wget or curl to download the data in batch.
+    1. user can directly acquire the downlooad links after selecting time range (HDF5).
+    2. for advanced uses, use could also select the spatial range to minimize the size of output (NC4).
 
 ## Reference
 1. [Data Access](https://disc.gsfc.nasa.gov/information/howto?title=Data%20Access)
