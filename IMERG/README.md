@@ -16,3 +16,6 @@ author: Jun Gu
 ## Reference
 1. [Data Access](https://disc.gsfc.nasa.gov/information/howto?title=Data%20Access)
 1. [How to Access GES DISC Data Using wget and curl](https://disc.gsfc.nasa.gov/information/howto?title=How%20to%20Access%20GES%20DISC%20Data%20Using%20wget%20and%20curl)
+
+## Additional manual
+1. https://mp.weixin.qq.com/s/xaVBZ0sv1VPjOsQx4Xn8RQ
